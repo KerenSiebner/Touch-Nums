@@ -1,0 +1,64 @@
+table {
+    background-color: rgba(137, 43, 226, 0.212);
+    border: 1px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Thasadith;
+    font-size: 80px;
+    background-color: none;
+}
+
+td {
+    border-radius: 10px;
+    border-color: grey;
+    border-width: 5px;
+    border-color: blueviolet;
+    padding: 10px;
+}
+td:hover{
+    cursor:pointer;
+    opacity: 50%;
+}
+
+h1 {
+    font-family: Waterfall;
+    text-align: center;
+    font-size: 100px;
+}
+
+.time {
+    font-family: Thasadith;
+    font-size: 40px;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.new-game {
+    font-family: Thasadith;
+    font-size: 40px;
+    background-color: rgba(137, 43, 226, 0.398);
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20%;
+}
+
+.difficulty {
+    font-family: Thasadith;
+    text-align: center;
+    font-size: 50px;
+}
+
+.diff {
+    font-family: Thasadith;
+    font-size: 40px;
+    background-color: rgba(137, 43, 226, 0.076);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.diff:hover{
+    cursor: pointer;
+    opacity: 50%;
+}

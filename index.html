@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>touch-nums</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Thasadith">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Waterfall">
+</head>
+
+<body onload="onInit()">
+    <h1>Touch the Numbers Game</h1>
+    <div class="difficulty">Choose difficulty level:
+        <button class="diff" data-difficulty="easy" onclick="chooseDifficulty(this)">Easy</button>
+        <button class="diff" data-difficulty="medium" onclick="chooseDifficulty(this)">Medium</button>
+        <button class="diff" data-difficulty="hard" onclick="chooseDifficulty(this)">Hard</button>
+    </div>
+    <button class="new-game" onclick="newGame()">New Game</button>
+    <div class="time" onclick="onInit()">Time: 00:00</div>
+    <table border="1" cellpadding="30">
+        <tbody class="board">
+
+        </tbody>
+    </table>
+
+    <script src="js/touch-nums.js"></script>
+</body>
+
+</html>
